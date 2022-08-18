@@ -4,99 +4,266 @@
 :root {
     --color-links: #2196F3;
 }
-
-.web {
-    color: var(--color-links);
+body{
     font-family: 'Raleway';
-    font-weight: 'Bold';
-  
-}
-
-
-.enlaces {
-    color: #212121;
     font-family: 'Roboto';
-    font-weight: 'Medium';
-    
+    margin: auto;
+    width: 1600px;
+    height: 1880;
 }
-
-.enlaces:hover {
+header{
+    height: 80px;
+    flex-wrap: wrap;
+    width: 1600px;
+    border: 1px solid #ececec;
+    display: inline-flex;
+}
+nav{
+    padding-bottom: 25px;
+    padding-top: 24px;
+    background-color: #FFFFFF;
+}
+nav :hover{
     color: var(--color-links);
 }
-.celular {
-    color: #757575;
-    font-family: 'Roboto';
-    font-weight: 'Medium';
-    
+header section{
+    padding-top: 32px;
+    padding-left: 344px;
 }
 
-
-#primera-seccion{
-    background-color: #2F303A;
-    font-family: 'Roboto';
-    font-weight: 900;
-    color: #FFFFFF;
-}
-
-.button-service {
-    color: white;
-    background-color: var(--color-links);
-    font-family: 'Roboto';
-    font-weight: 'Bold';
-    border-radius: 5px;
-}
-
-
-.titulo{
-    color: #212121;
-    font-family: 'Roboto';
-    font-weight: '700';
-}
-.parrafo{
-    color: #757575;
-    font-family: 'Roboto';
-    font-weight: '400';
-}
-.subtitulo{
-    color:#212121;
-    font-family: 'Roboto';
-    font-weight: '500';
-}
-#informacion{
-    font-family: 'Roboto';
-    font-weight: 400;
-    background-color: #2F303A;
-}
-.webb{
+#web {
     color: var(--color-links);
     font-family: 'Raleway';
     font-weight: 700;
-    line-height: 30.52px;
+    text-decoration: none;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    padding-left: 215px;
 }
-.direccion{
+nav a {
+    text-decoration: none;
+    display: inline;
+    padding-left: 50px;
     font-family: 'Roboto';
-    font-weight: 400;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.correo{
+    color: #757575;
+    text-decoration: none;
+}
+
+.celular {
+    color: #757575;
+    text-decoration: none;
+    padding-left: 50px;
+}
+article .correo :hover{
+    color: var(--color-links);
+}
+article.celular :hover {
+    color: var(--color-links);
+}
+
+
+.primera-seccion{
+    background-color: #2F303A;
+    margin: auto;
+    width: 1600px;
+    height: 600px;
+    
+}
+h1{
     color: #FFFFFF;
-    line-height: 24px;
-}
-.links{
     font-family: 'Roboto';
-    font-weight: 400;
-    color: rgba(255, 255, 255, 0.6);
-    line-height: 24px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    position: absolute;
+    width: 696px;
+    padding-left: 462px;
+    padding-top: 200px;
+    letter-spacing: 0.06em;
+    line-height: 60px;
+    text-align: center;
 }
 
-.button-servicios {
-    color:#212121;
-    background-color: rgba(245, 244, 250, 1);
-    font-family: 'Roboto';
-    font-weight: '500';
-    border-radius: 5px;
-}
-
-.button-servicios:hover {
+.primera-seccion button {
     color:#FFFFFF;
+    background: var(--color-links);
+    border-color: var(--color-links);
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: '700';
+    font-size: 16px;
+    font-style: normal;
+    letter-spacing: 0.06em;
+    border-radius: 5px;
+    margin-left: 700px;
+    margin-top: 380px;
+    width: 261px;
+    height: 50px;
+    left: 700px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+button :hover{
     background-color: var(--color-links);
-    border: 1px solid white;
+    color: #FFFFFF;
+}
+
+.tabla {
+    padding-top: 95px;
+    padding-bottom: 94px;
+}
+.tabla td {
+    width: 270px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding-right: 30px;
+}
+.tabla .titulo {
+    padding-left: 215px;
+}
+.tabla td h3 {
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+}
+.tabla td .parrafo {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin: auto;
+    padding-top: 10px;
+}
+.taabla h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin: auto;
+
+
+}
+.taabla img {
+    width: 370px;
+    height: 294px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 94px;
+}
+.tablaa .imagge {
+    padding-left: 215px;
+}
+.equipo {
+    background-color: #F5F4FA;
+}
+
+.equipo h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    padding-top: 94px;
+}
+#imagenes {
+    padding-top: 50px;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+#imagenes div {
+    margin-right: 37px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    width: 270px;
+    height: 368px;
+    margin-bottom: 94px;
+}
+
+#imagenes .trabajador {
+    margin-left: 215px;
+}
+
+#imagenes div h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #212121;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 10px;
+    padding-top: 30px;
+
+}
+
+#imagenes div p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #757575;
+    margin: auto;
+    text-align: center;
+
+}
+
+
+
+footer {
+    background-color: #2F303A;
+    height: 252px;
+}
+footer a {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--color-links);
+}
+
+footer div {
+    padding-top: 60px;
+    padding-left: 215px;
+}
+
+footer address {
+    padding-left: 215px;
+    padding-top: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 00.03em;
+    color: #fff;
 }
 
