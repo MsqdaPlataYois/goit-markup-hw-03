@@ -130,6 +130,9 @@ button :hover{
 .tabla .titulo {
     padding-left: 215px;
 }
+.tabla tr{
+    vertical-align: text-top;
+}
 .tabla td h3 {
     line-height: 16px;
     letter-spacing: 0.03em;
@@ -139,6 +142,7 @@ button :hover{
     font-style: normal;
     font-weight: 800;
     font-size: 14px;
+    
 }
 .tabla td .parrafo {
     font-family: 'Roboto';
@@ -170,10 +174,12 @@ button :hover{
     padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 94px;
+    
 }
-.tablaa .imagge {
-    padding-left: 215px;
+.taabla{
+    margin-left: 216px;
 }
+
 .equipo {
     background-color: #F5F4FA;
 }
